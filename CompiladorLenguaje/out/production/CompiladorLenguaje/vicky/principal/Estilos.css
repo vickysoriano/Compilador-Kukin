@@ -1,0 +1,20 @@
+#boton{
+    -fx-background-color: linear-gradient(to bottom, #a2d2ff, #ffafcc);
+    -fx-border-color: #DE84B4;
+    -fx-border-width: 3;
+    }
+#boton:hover{
+    -fx-background-color: linear-gradient(to bottom, #DE84B4 , #ffc8dd);
+}
+#boton:pressed {
+    -fx-background-color: #cdb4db;
+}
+.menu-item:focused {
+    -fx-background-color: #cdb4db;
+}
+.menu:hover {
+    -fx-background-color: #bde0fe;
+}
+.menu:showing {
+    -fx-background-color: #bde0fe;
+}

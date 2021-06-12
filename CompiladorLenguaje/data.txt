@@ -1,0 +1,20 @@
+Kukin x(){
+	bigote sipis;
+	sipis = 5;
+	si(sipis + 3 > 2){
+		si(3 > 4){
+			corre("uno");
+			sipis = 10;
+		}si no{
+			corre(sipis);
+			sipis = 7;
+			si(2 == 2){
+				corre("okey");
+			}
+	}
+	}si no{
+		corre("tres");
+	}
+	corre("fuera del if");
+	corre(sipis);
+}
